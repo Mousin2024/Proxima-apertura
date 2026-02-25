@@ -41,11 +41,11 @@ body {
   padding: 20px;
 }
 
-/* Logo pequeño */
+/* Logo grande */
 
 .logo {
-  width: 130px;
-  max-width: 60%;
+  width: 390px;
+  max-width: 90%;
   margin-bottom: 20px;
   animation: logoFloat 4s ease-in-out infinite;
 }
@@ -57,7 +57,7 @@ body {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-12px);
   }
   100% {
     transform: translateY(0px);
