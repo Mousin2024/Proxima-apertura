@@ -34,9 +34,37 @@ body {
   }
 }
 
+/* Contenedor principal */
+
 .container {
   text-align: center;
+  padding: 20px;
 }
+
+/* Logo */
+
+.logo {
+  width: 260px;
+  max-width: 80%;
+  margin-bottom: 30px;
+  animation: logoFloat 4s ease-in-out infinite;
+}
+
+/* Movimiento suave del logo */
+
+@keyframes logoFloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Título */
 
 h1 {
   font-size: 3rem;
@@ -44,9 +72,11 @@ h1 {
   font-weight: 700;
 }
 
+/* Texto */
+
 p {
   margin-top: 10px;
-  opacity: 0.8;
+  opacity: 0.85;
   font-weight: 300;
 }
 
@@ -55,11 +85,11 @@ p {
 .loader {
   width: 80px;
   height: 80px;
-  border: 6px solid rgba(255,255,255,0.15);
+  border: 6px solid rgba(255,255,255,0.2);
   border-top: 6px solid white;
   border-radius: 50%;
   animation: spin 1s linear infinite;
-  margin: auto;
+  margin: 20px auto;
 }
 
 /* Animación loader */
