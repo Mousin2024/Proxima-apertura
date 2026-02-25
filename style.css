@@ -7,8 +7,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Fondo animado */
+
 body {
- body {
   height: 100vh;
   background: linear-gradient(-45deg, #4facfe, #7b5cff, #d946ef, #ff4d6d);
   background-size: 400% 400%;
@@ -18,6 +19,8 @@ body {
   align-items: center;
   color: white;
 }
+
+/* Animación del gradiente */
 
 @keyframes gradientMove {
   0% {
@@ -29,11 +32,6 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
 }
 
 .container {
@@ -48,7 +46,8 @@ h1 {
 
 p {
   margin-top: 10px;
-  opacity: 0.7;
+  opacity: 0.8;
+  font-weight: 300;
 }
 
 /* Loader animado */
@@ -56,12 +55,14 @@ p {
 .loader {
   width: 80px;
   height: 80px;
-  border: 6px solid rgba(255,255,255,0.1);
-  border-top: 6px solid #38bdf8;
+  border: 6px solid rgba(255,255,255,0.15);
+  border-top: 6px solid white;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: auto;
 }
+
+/* Animación loader */
 
 @keyframes spin {
   to {
