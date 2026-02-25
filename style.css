@@ -34,19 +34,19 @@ body {
   }
 }
 
-/* Contenedor principal */
+/* Contenedor */
 
 .container {
   text-align: center;
   padding: 20px;
 }
 
-/* Logo */
+/* Logo pequeño */
 
 .logo {
-  width: 260px;
-  max-width: 80%;
-  margin-bottom: 30px;
+  width: 130px;
+  max-width: 60%;
+  margin-bottom: 20px;
   animation: logoFloat 4s ease-in-out infinite;
 }
 
@@ -57,7 +57,7 @@ body {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-12px);
+    transform: translateY(-10px);
   }
   100% {
     transform: translateY(0px);
@@ -68,7 +68,7 @@ body {
 
 h1 {
   font-size: 3rem;
-  margin-top: 30px;
+  margin-top: 20px;
   font-weight: 700;
 }
 
@@ -80,7 +80,7 @@ p {
   font-weight: 300;
 }
 
-/* Loader animado */
+/* Loader */
 
 .loader {
   width: 80px;
